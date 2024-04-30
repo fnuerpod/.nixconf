@@ -9,7 +9,7 @@
         nixosConfigurations.fnunix = nixpkgs.lib.nixosSystem {
             system = "x86_64-linux";
             modules = [
-                ./hosts/fnunix/configuration.nix
+                ./hosts/fnunix/default.nix
             ];
         };
     };
